@@ -43,3 +43,15 @@ src/
 - Cores: variáveis `--orange`, `--ink`, `--cream` em `src/index.css`
 - Serviços do formulário: lista `SERVICES` em `BookingModal.jsx`
 - Para trocar o `localStorage` por uma API depois, só o `useBookings.js` precisa mudar
+
+- ## Telas
+
+### Tela inicial
+Agenda mensal com o painel lateral: medidor de vagas da semana (limite de 10 carros), botão **Nova reserva** e a lista das próximas entradas, com opções de editar e excluir. Dá para alternar entre as visões **Mês** e **Semana**.
+
+![Tela inicial da agenda](docs/screenshots/tela-inicial.png)
+
+### Cadastro e edição de reserva
+Ao clicar em **Nova reserva** ou em um dia do calendário, abre o formulário para preencher os dados do cliente, veículo, serviço e data de entrada. O formulário mostra quantos carros já estão reservados na semana escolhida e bloqueia a reserva quando ela estiver lotada. O mesmo formulário é usado para editar uma reserva existente.
+
+![Formulário de nova reserva](docs/screenshots/nova-reserva.png)
